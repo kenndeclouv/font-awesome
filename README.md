@@ -61,12 +61,12 @@ v7.2.0/
 
 ## 🚀 How to Use
 
-### Option 1 — Single import via `all.css`
+### Option 1 — CDN via jsDelivr (recommended)
 
-Include the master stylesheet which bundles everything:
+Include the master stylesheet from the jsDelivr CDN:
 
 ```html
-<link rel="stylesheet" href="path/to/v7.2.0/css/all.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenndeclouv/font-awesome@main/v7.2.0/css/all.css" />
 ```
 
 Then use icons with the appropriate class:
@@ -96,17 +96,17 @@ Then use icons with the appropriate class:
 
 ---
 
-### Option 2 — Import only what you need
+### Option 2 — CDN, cherry-pick only what you need
 
 For a lighter footprint, import only the styles you use:
 
 ```html
 <!-- Core (required) -->
-<link rel="stylesheet" href="path/to/v7.2.0/css/fontawesome.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenndeclouv/font-awesome@main/v7.2.0/css/fontawesome.css" />
 
 <!-- Pick your styles -->
-<link rel="stylesheet" href="path/to/v7.2.0/css/solid.css" />
-<link rel="stylesheet" href="path/to/v7.2.0/css/brands.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenndeclouv/font-awesome@main/v7.2.0/css/solid.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenndeclouv/font-awesome@main/v7.2.0/css/brands.css" />
 ```
 
 ---
